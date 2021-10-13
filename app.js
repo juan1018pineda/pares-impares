@@ -7,10 +7,10 @@ app.get('/', (req, res) => {
     let p = '';
     for (let i = 1; i<= 50; i++){
         if(i % 2 === 0){
-            p = `<p>${i} soy Par!</p>`;
+            p = `<p>${i} Soy Par!</p>`;
             html += p;
         } else {
-            p = `<p>${i} soy Impar!</p>`;
+            p = `<p>${i} Soy Impar!</p>`;
             html += p;
         }
     }
